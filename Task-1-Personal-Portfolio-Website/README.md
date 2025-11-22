@@ -72,4 +72,4 @@ This is a **fully responsive, interactive portfolio website** built with **HTML,
 ```bash
 git clone https://github.com/Eduaina/CODING-SAMURAI-INTERNSHIP-TASK.git
 
-hosted link: 
+hosted link:  https://eduainacom.vercel.app/
