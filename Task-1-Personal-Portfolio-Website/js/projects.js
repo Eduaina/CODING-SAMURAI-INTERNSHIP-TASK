@@ -5,8 +5,7 @@ const allProjects = [
     title: "Blooms E-commerce Platform",
     description:
       "Developed a responsive e-commerce front-end, integrating product display and a seamless user checkout flow using React and CSS Grid.",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (358).png",
+    image: "assets/images/Screenshot (358).png",
     tags: ["React", "CSS Grid", "UX", "Responsive"],
     liveUrl: "https://bloom-ochre.vercel.app/",
     category: "html-css-js",
@@ -17,8 +16,7 @@ const allProjects = [
     title: "Smart Task Manager",
     description:
       "Built an intuitive task management application with a focus on drag-and-drop functionality and local storage persistence, leveraging vanilla JavaScript and incorporates AI.",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (359).png",
+    image: "assets/images/Screenshot (359).png",
     tags: ["JavaScript", "HTML", "CSS", "Local Storage"],
     liveUrl: "https://task-app-neon-nine.vercel.app/",
     category: "html-css-js",
@@ -28,7 +26,7 @@ const allProjects = [
     id: 3,
     title: "Calculator",
     description: "Interactive calculator app with memory",
-    image: "/Task-1-Personal-Portfolio-Website/assets/images/0.calc.png",
+    image: "assets/images/0.calc.png",
     tags: ["UX/UI", "Prototyping", "Information Architecture", "JS"],
     liveUrl: "https://calculator-delta-six-74.vercel.app/",
     category: "html-css-js",
@@ -38,8 +36,7 @@ const allProjects = [
     id: 4,
     title: "Food landing page",
     description: "A clean simple HTML & CSS landing page",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (361).png",
+    image:"assets/images/Screenshot (361).png",
     tags: ["Css", "Html", "Serverless", "UI"],
     liveUrl: "https://food-page-rho.vercel.app/",
     category: "html-css",
@@ -50,8 +47,7 @@ const allProjects = [
     title: "Vanilla CSS & HTML landing Page",
     description:
       "A clean, modern static brochure website built using only semantic HTML5 and custom CSS for a lightweight, performant result.",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (362).png",
+    image: "assets/images/Screenshot (362).png",
     tags: ["HTML5", "CSS3", "Responsive", "Accessibility"],
     liveUrl: "https://pixel-gang-month1-assessment.vercel.app/",
     category: "html-css",
@@ -61,8 +57,7 @@ const allProjects = [
     id: 6,
     title: "Palindrome checker",
     description: "A simple palindrome checker.",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (363).png",
+    image: "assets/images/Screenshot (363).png",
     tags: ["UX/UI", "Prototyping", "Information Architecture", "JS"],
     liveUrl: "https://building-a-palindrome-checker.vercel.app/",
     category: "html-css-js",
@@ -71,10 +66,8 @@ const allProjects = [
   {
     id: 7,
     title: "Animated Login Page",
-    description:
-      "A non interactive but dynamic and beaautifully designed login page",
-    image:
-      "/Task-1-Personal-Portfolio-Website/assets/images/Screenshot (364).png",
+    description: "A non interactive but dynamic and beaautifully designed login page",
+    image: "assets/images/Screenshot (364).png",
     tags: ["UX/UI", "Prototyping", "Information Architecture"],
     liveUrl: "https://forms-login-page.vercel.app/",
     category: "html-css",

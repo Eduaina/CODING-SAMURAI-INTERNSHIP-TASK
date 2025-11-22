@@ -20,13 +20,12 @@ This is a **fully responsive, interactive portfolio website** built with **HTML,
 - Smooth anchor link navigation
 
 ### Hero Section
-- Animated text introducing the developer
+- Animated text introducing the myself and stating what i do
 - Call-to-action buttons
 - Subtle background animations
 
 ### About Section
 - Profile image with bio
-- Animated counters (experience, projects, clients)
 - Intersection observer for scroll animations
 
 ### Quality / Journey Section
@@ -34,7 +33,7 @@ This is a **fully responsive, interactive portfolio website** built with **HTML,
 - Smooth animation as user scrolls
 
 ### Skills Section
-- Animated skill bars
+- Animated skill cards
 - Supports HTML, CSS, JavaScript, React, Vue
 - Easy customization of animation speed and easing
 
@@ -45,31 +44,14 @@ This is a **fully responsive, interactive portfolio website** built with **HTML,
 ### Projects / Gallery Section
 - Grid layout with hover effects
 - Overlay with project info
-- Supports future modals or sliders
-
-### Reviews Section
-- Testimonial slider
-- Smooth transitions between reviews
-
-### Blog Section
-- Card-based layout
-- Ready for slider or pagination
-- Supports placeholder images and content
+- Link to a main projects page
 
 ### Contact Section
-- Contact form with validation
-- Placeholder map embed
-- Easy to connect to email service or backend
+- Links to social media handles, github and email
 
 ### Footer
 - Simple copyright section
 
 ---
-
-## Installation & Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Eduaina/CODING-SAMURAI-INTERNSHIP-TASK.git
 
 hosted link:  https://eduainacom.vercel.app/
