@@ -1,238 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bee's Portfolio</title>
-  <link rel="stylesheet" href="/Task-1-Personal-Portfolio-Website/css/global.css">
-  <link rel="stylesheet" href="/Task-1-Personal-Portfolio-Website/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eduaine Ighalo - Front-End Developer with a user-centric approach and a background in Medical Biochemistry.">
+    <title>Eduaina Ighalo | Front-End Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <div class="logo">Bee</div>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#quality">Journey</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="nav-toggle">&#9776;</button>
-    </div>
-  </header>
+<body class="light-theme"> <header class="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Eduaina.</a>
+            <nav class="nav-links">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn btn-small">Contact</a></li>
+                    <li>
+                        <button id="theme-toggle" class="btn btn-icon" aria-label="Toggle light/dark theme">
+                            <i class="fas fa-moon"></i> </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <!-- THEME TOGGLER -->
-  <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content animate-fade-in">
+                <p class="hero-intro">Hello, I'm</p>
+                <h1>Eduaina Ighalo</h1>
+                <p class="hero-role">A **Front-End Developer** crafting intuitive digital experiences.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-bg-overlay"></div>
+        </section>
 
-  <!-- HERO SECTION -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1 class="animated-text">Hi, I'm Bee</h1>
-      <p class="role">Full-Stack Frontend Developer</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn">Hire Me</a>
-        <a href="#projects" class="btn btn-outline">My Work</a>
-      </div>
-    </div>
-    <div class="hero-bg"></div>
-  </header>
+        <section id="about" class="section-padding bg-section">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Bridging Biochemistry & Digital Experiences: A User-Centric Frontend Developer.</p>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1534661852078-438965f7c352?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Eduaine Ighalo - Professional headshot">
+                    </div>
+                    <div class="about-text">
+                        <p>As a Front-End Developer, I craft intuitive and robust digital experiences, driven by a deep understanding of user needs and a rigorous, analytical mindset. My unique background in Medical Biochemistry and research has cultivated a meticulous attention to detail and a scientific approach to problem-solving, which I now channel into building exceptional web interfaces.</p>
+                        <p>I approach development with a strong product-thinking perspective, leveraging extensive UX research skills – from user stories and wireframing to comprehensive UX flows and problem framing – to ensure every line of code translates into genuine user value. Known for my tenacity, rapid learning, and insatiable curiosity, I am always seeking growth and innovative solutions. I am committed to delivering clean, scalable, and accessible front-end architecture, ensuring seamless performance across all devices.</p>
+                        <p>Beyond coding, I am an aspiring technical writer, dedicated to clear documentation and enhancing developer experience. This holistic approach empowers me to not only build functional interfaces but to also articulate complex solutions with precision and clarity. I thrive on transforming intricate challenges into elegant, user-friendly solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- ABOUT SECTION -->
-  <section id="about" class="about section">
-    <div class="container">
-      <div class="about-img">
-        <img src="https://via.placeholder.com/300" alt="Profile Image">
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>I'm a passionate front-end developer focused on creating visually stunning and interactive web experiences.</p>
-        <div class="counters">
-          <div class="counter">
-            <span class="count" data-target="5">0</span> Years Experience
-          </div>
-          <div class="counter">
-            <span class="count" data-target="20">0</span> Projects Completed
-          </div>
-          <div class="counter">
-            <span class="count" data-target="10">0</span> Happy Clients
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="experience" class="section-padding">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Cultivating Expertise: My Journey in Frontend Development & Tech.</p>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <h3>Women Techsters Fellowship</h3>
+                        <p class="timeline-meta">August 2025 – August 2026 | Fellow</p>
+                        <p>Currently engaged in a highly competitive 1-year fellowship, rigorously advancing my development skills, collaborating on real-world projects, and gaining exposure to industry best practices.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Coding Samurai</h3>
+                        <p class="timeline-meta">October – November 2025 | Intern</p>
+                        <p>Completed a focused 1-month internship, gaining practical experience in rapid development cycles and contributing to front-end components.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Code The Dream - Intro to Programming</h3>
+                        <p class="timeline-meta">November 2025 – February 2026 | Participant</p>
+                        <p>Actively participating in an intensive 'Intro to Programming' program, solidifying core concepts and building a robust foundational skill set.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- QUALITY SECTION -->
-  <section id="quality" class="quality section">
-    <div class="container">
-      <h2>My Journey</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>2020 - 2021</h3>
-          <p>Front-End Development Internship</p>
-        </div>
-        <div class="timeline-item">
-          <h3>2021 - 2023</h3>
-          <p>Freelance Projects & Frontend Work</p>
-        </div>
-        <div class="timeline-item">
-          <h3>2023 - Present</h3>
-          <p>Full-Stack Developer & Tech Content Creator</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="skills" class="section-padding bg-section">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Technical Acumen & User-Centric Design: My Core Competencies.</p>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Front-End Development</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React</li>
+                            <li>Vue <span class="learning-tag">(Learning)</span></li>
+                            <li>Responsive Design Principles</li>
+                            <li>Accessibility Fundamentals</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-compass"></i> UX & Product Thinking</h3>
+                        <ul>
+                            <li>User Research & Analysis</li>
+                            <li>User Stories & Journey Mapping</li>
+                            <li>Wireframing & Prototyping</li>
+                            <li>Information Architecture</li>
+                            <li>Usability Analysis</li>
+                            <li>UX Flows & Problem Framing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-pencil-alt"></i> Documentation & Communication</h3>
+                        <ul>
+                            <li>Technical Writing</li>
+                            <li>Clear Documentation</li>
+                            <li>Developer Experience (DX) Instincts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- SKILLS SECTION -->
-  <section id="skills" class="skills section">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skill-list">
-        <div class="skill">
-          <h4>HTML</h4>
-          <div class="skill-bar" data-skill="90%"></div>
-        </div>
-        <div class="skill">
-          <h4>CSS</h4>
-          <div class="skill-bar" data-skill="85%"></div>
-        </div>
-        <div class="skill">
-          <h4>JavaScript</h4>
-          <div class="skill-bar" data-skill="75%"></div>
-        </div>
-        <div class="skill">
-          <h4>React</h4>
-          <div class="skill-bar" data-skill="70%"></div>
-        </div>
-        <div class="skill">
-          <h4>Vue</h4>
-          <div class="skill-bar" data-skill="65%"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="services" class="section-padding">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I Offer: Crafting Seamless Digital Experiences.</p>
+                <div class="services-content">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Front-End Development</h3>
+                            <p>Building clean, maintainable, and scalable front-end architecture using modern web standards and frameworks.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Responsive UI Implementation</h3>
+                            <p>Delivering pixel-perfect interfaces that adapt flawlessly across all devices and screen sizes.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-users-cog"></i>
+                            <h3>User Experience (UX) Research & Strategy</h3>
+                            <p>Conducting thorough user research and employing user-centered problem framing to guide design and development decisions.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-drafting-compass"></i>
+                            <h3>Interface Structure & Prototyping</h3>
+                            <p>Designing intuitive wireframes, user flows, and interactive prototypes to visualize and validate user journeys.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-file-alt"></i>
+                            <h3>Technical Writing & Documentation</h3>
+                            <p>Producing clear, concise, and developer-friendly documentation for projects, APIs, and processes.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Usability Audits & UX Enhancements</h3>
+                            <p>Analyzing existing interfaces for usability issues and implementing data-driven improvements to optimize user satisfaction.</p>
+                        </div>
+                    </div>
+                    <div class="services-image animate-fade-in">
+                        <img src="https://images.unsplash.com/photo-1510511459019-5fda7724fd8f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Developer working on multiple screens, showing code and design elements">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- SERVICES SECTION -->
-  <section id="services" class="services section">
-    <div class="container">
-      <h2>Services</h2>
-      <div class="service-cards">
-        <div class="card">
-          <h3>Web Design</h3>
-          <p>Modern and responsive design for web applications.</p>
-        </div>
-        <div class="card">
-          <h3>Frontend Development</h3>
-          <p>Clean, maintainable, interactive front-end coding.</p>
-        </div>
-        <div class="card">
-          <h3>UI/UX Consulting</h3>
-          <p>Enhancing usability and user satisfaction.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="projects" class="section-padding bg-section">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">My Work: Engineered for Impact, Designed for Users.</p>
+                <p class="projects-intro">Explore a curated selection of my projects, each reflecting a commitment to clean code, responsive design, and a user-first approach. Hover for a quick preview, or click to experience the live application.</p>
+                <div class="projects-grid">
+                    </div>
+                <div class="text-center mt-5">
+                    <a href="projects-full.html" class="btn btn-primary btn-large">See All Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
 
-  <!-- GALLERY / PROJECTS SECTION -->
-  <section id="projects" class="projects section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300" alt="Project">
-          <div class="project-overlay">
-            <h3>Project One</h3>
-            <p>Web application with modern UI.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300" alt="Project">
-          <div class="project-overlay">
-            <h3>Project Two</h3>
-            <p>Interactive frontend experience.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300" alt="Project">
-          <div class="project-overlay">
-            <h3>Project Three</h3>
-            <p>Full-stack application demo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="contact" class="section-padding">
+            <div class="container animate-slide-up">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's Connect: Partnering on Your Next Digital Innovation.</p>
+                <div class="contact-content">
+                    <p>Ready to collaborate on projects that prioritize user experience and robust front-end development? Whether you have a challenging problem to solve, an idea to bring to life, or just want to discuss the latest in web technology, I'm eager to connect.</p>
+                    <p>Feel free to reach out via email, or connect with me on professional networks. I'm always looking for opportunities to contribute my skills and analytical approach to innovative teams.</p>
+                    <div class="contact-links">
+                        <a href="mailto:eduaighalo22@gmail.com" class="btn btn-primary contact-btn"><i class="fas fa-envelope"></i> Email Me</a>
+                        <a href="https://www.linkedin.com/in/eduaina-ighalo/" target="_blank" class="btn btn-secondary contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/Eduaina" target="_blank" class="btn btn-secondary contact-btn"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://x.com/Edua_dev" target="_blank" class="btn btn-secondary contact-btn"><i class="fab fa-x-twitter"></i> X (Twitter)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <!-- REVIEWS SECTION -->
-  <section id="reviews" class="reviews section">
-    <div class="container">
-      <h2>Reviews</h2>
-      <div class="review-slider">
-        <div class="review-item active">
-          <p>"Bee's work is phenomenal and fast. Highly recommended!"</p>
-          <h4>- Client A</h4>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Eduaina Ighalo. All rights reserved.</p>
         </div>
-        <div class="review-item">
-          <p>"Interactive designs and smooth development!"</p>
-          <h4>- Client B</h4>
-        </div>
-        <div class="review-item">
-          <p>"Professional, creative, and responsive."</p>
-          <h4>- Client C</h4>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- BLOG SECTION -->
-  <section id="blog" class="blog section">
-    <div class="container">
-      <h2>Blog</h2>
-      <div class="blog-grid">
-        <div class="blog-card">
-          <img src="https://via.placeholder.com/300" alt="Blog">
-          <h3>Post One</h3>
-          <p>Brief snippet about the blog post...</p>
-        </div>
-        <div class="blog-card">
-          <img src="https://via.placeholder.com/300" alt="Blog">
-          <h3>Post Two</h3>
-          <p>Brief snippet about the blog post...</p>
-        </div>
-        <div class="blog-card">
-          <img src="https://via.placeholder.com/300" alt="Blog">
-          <h3>Post Three</h3>
-          <p>Brief snippet about the blog post...</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="contact section">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form id="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <div id="map">
-        <!-- Embed map optional -->
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; 2025 Bee. All rights reserved.</p>
-  </footer>
-
-  <script src="/Task-1-Personal-Portfolio-Website/js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/projects.js"></script>
 </body>
 </html>
