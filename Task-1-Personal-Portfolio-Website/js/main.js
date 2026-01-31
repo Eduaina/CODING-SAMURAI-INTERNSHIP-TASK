@@ -223,4 +223,13 @@ document.addEventListener("DOMContentLoaded", () => {
       updateThemeIcon();
     });
   }
+
+  const footer = document.querySelector('.footer');
+  const footerContent = footer.querySelector('.container');
+  const footerText = footerContent.querySelector('p');
+  const today = new Date();
+  const currentYear = today.getFullYear();
+  const copyrightSymbol = "\u00A9"
+  const owner = "Eduaina Brenda Ighalo. All rights reserved."
+  footerText.textContent = `${copyrightSymbol} ${currentYear} ${owner}`;
 });
