@@ -231,5 +231,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentYear = today.getFullYear();
   const copyrightSymbol = "\u00A9"
   const owner = "Eduaina Brenda Ighalo. All rights reserved."
-  footerText.textContent = `${copyrightSymbol} ${currentYear} ${owner}`;
+  footerText.innerText = `${copyrightSymbol} ${currentYear} ${owner}`;
 });
